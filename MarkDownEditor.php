@@ -2,15 +2,15 @@
 class MarkDownEditorPlugin extends MantisPlugin {
 
     function register() {
-        $this->name        = 'MarkDown Editor';
+        $this->name        = 'MarkDown Editor (fork from https://github.com/eJyothi)';
         $this->description = 'Enable Bootstrap-Markdown editor on textareas';
-        $this->version     = '0.3';
+        $this->version     = '0.3-mx';
         $this->requires    = array(
 						'MantisCore' => '2.3.0',
 						);
         $this->author      = 'Manilal K M';
         $this->contact     = 'manilal@ejyothi.com';
-        $this->url         = 'https://github.com/eJyothi';
+        $this->url         = 'https://github.com/johgoe/MantisBT-MarkDownEditor';
     }
 
     function hooks() {
