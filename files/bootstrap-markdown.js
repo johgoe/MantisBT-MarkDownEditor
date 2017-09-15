@@ -1218,7 +1218,7 @@
                 chunk = list[0];
 
                 $.each(list, function(k, v) {
-                  list[k] = '- ' + v;
+                  list[k] = '* ' + v;
                 });
 
                 e.replaceSelection('\n\n' + list.join('\n'));
